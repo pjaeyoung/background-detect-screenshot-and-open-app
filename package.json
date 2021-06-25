@@ -23,6 +23,7 @@
   ],
   "scripts": {
     "test": "jest",
+    "prestart":"source ~/.bash_profile",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
