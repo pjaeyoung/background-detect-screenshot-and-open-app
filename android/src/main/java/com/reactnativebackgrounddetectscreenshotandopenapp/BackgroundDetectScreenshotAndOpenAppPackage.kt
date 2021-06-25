@@ -6,8 +6,11 @@ import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.uimanager.ViewManager
 
 
+
 class BackgroundDetectScreenshotAndOpenAppPackage : ReactPackage {
-    override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
+
+
+  override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
         return listOf(BackgroundDetectScreenshotAndOpenAppModule(reactContext))
     }
 
